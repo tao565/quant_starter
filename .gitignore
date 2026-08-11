@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# 数据文件（太大，不传）
+data/*.csv
+
+# 回测图片（每次跑都会重新生成）
+backtest_*.png
+
+# IDE
+.idea/
+.vscode/
+
+# conda
+envs/
